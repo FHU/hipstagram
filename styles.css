@@ -1,0 +1,56 @@
+
+.icons {
+    font-size: 2rem;
+}
+
+.stories {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    border: 1px solid #ddd;
+    overflow-x: scroll;
+}
+
+.story {
+    flex-shrink: 0;
+    margin:1rem;
+    width:70px;
+    overflow: hidden;
+}
+
+.story img {
+    border-radius: 50%;
+    padding:2px;
+    /* border: 1px solid salmon; */
+
+    /* https://codyhouse.co/nuggets/css-gradient-borders */
+    background: 
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to top right, orange, darkorchid) border-box;
+
+    border: 4px solid transparent;
+}
+
+.story .username {
+    margin:0;
+    max-width:70px;
+    font-weight: normal;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.username {
+    font-weight: bold;
+}
+
+.currentUser {
+    border: 1px solid #ddd;
+
+}
+
+.currentUser img {
+    border-radius: 50%;;
+}

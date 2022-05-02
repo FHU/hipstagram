@@ -1,6 +1,24 @@
 
-.icons {
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: white;
+    border-bottom:1px solid #ddd;
+}
+
+header .icons {
     font-size: 2rem;
+    text-align: right;
+}
+
+.content {
+    margin-top:60px;
 }
 
 .stories {
@@ -53,4 +71,44 @@
 
 .currentUser img {
     border-radius: 50%;;
+}
+
+
+.posts {
+    margin-top: 3rem;
+
+}
+
+.post {
+    margin-top:1rem;
+    border: 1px solid #ddd;
+}
+
+.post .location {
+    color: #888;
+}
+
+.post .dots {
+    display: flex;
+}
+
+.post .dots i {
+    display: block;
+    margin:auto;
+}
+
+.post .profile-image {
+    border-radius: 50%;
+}
+
+.post .interactions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    position: sticky;
+    top: 60px;
+    align-self: flex-start;
+    /* overflow-y: auto; */
 }
